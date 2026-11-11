@@ -1,41 +1,155 @@
-
-    
 <!DOCTYPE html>
-<html >
-<head>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amanuel | My Portfolio</title>
+
+    <style>
+       
+body {
+    background: #100b2e;
+    color: #ffffff;
+}
+
+header, footer {
+    background: #1b1245;
+}
+
+.logo, h2, .home h1 {
+    color: #c084fc;
+}
+
+nav a:hover {
+    color: #c084fc;
+}
+
+.btn {
+    background: #a855f7;
+    color: white;
+}
+
+.skills span {
+    background: #241650;
+    border: 1px solid #a855f7;
+}
+
+.card {
+    background: #241650;
+    border: 1px solid #493078;
+}
+
+#contact .card p a {
+    color: #ff3333;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contact .card p a:hover {
+    color: #ff7777;
+    text-decoration: underline;
+}
+}
+    </style>
 </head>
 
 <body>
 
-    <h1>Hello, welcome to my home page</h1>
+    <header>
+        <div class="logo">Amanuel.</div>
 
-    <h2>About Me</h2>
-    <p>
-        I am a professional software developer.
-        Welcome to my personal website.
-    </p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <h2>Education</h2>
-    <p>Degree in Computer Science</p>
+    <section class="home" id="home">
+        <h1>Hello, I'm Amanuel</h1>
+        <p>Welcome to My Personal Portfolio Website</p>
+        <a href="#about" class="btn">Discover More</a>
+    </section>
 
-    <h2>My Skills</h2>
-    <p>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Computer Skills</li>
-        <li>javascript</li>
-    </p>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am passionate about technology and software development.
+                Welcome to my personal website.
+            </p>
+        </div><section id="contact">
+            <h2>Contact Me</h2>
+            <div class="card">
+        
+                <p>
+                    Email:
+                    <a href="mailto:amanuelalamerw@gmail.com">
+                        amanuelalamerw@gmail.com
+                    </a>
+                </p>
+        
+                <p>
+                    Phone:
+                    <a href="tel:+251949789778">
+                        +251 949 789 778
+                    </a>
+                </p>
+        
+                <a href="mailto:amanuelalamerw@gmail.com" class="btn">
+                    Send Me an Email
+                </a>
+        
+            </div>
+        </section>
 
-    <h2>My Goals</h2>
-    <p>
-        I am a professional
-        Software Developer.
-    </p>
+    </section>
 
-    <h2>Contact Me</h2>
-    <p>Email: amanuelalamerw@gmail.com</p>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <p>Computer Science</p>
+        </div>
+            </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Computer Skills</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="card">
+                <h3>Personal Portfolio Website</h3>
+                <p>My first website built using HTML and CSS.</p>
+            </div>
+        </section>
+
+    <section id="goals">
+        <h2>My Goals</h2>
+        <div class="card">
+            <p>
+                My goal is to become a skilled software developer
+                and build useful applications.
+            </p>
+        </div>
+    </section>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Amanuel. All Rights Reserved.</p>
+    </footer>
 
 </body>
+
 </html>
